@@ -9,13 +9,15 @@
 <title>PORTFOLIO</title>
 
 <body class="bg-indigo">
-
     <!-- HEADER SECTION START -->
     <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
         <div class="container">
             <div class="flex items-center justify-between relative">
                 <div class="px-4">
-                    <a href="#home" class="font-bold text-lg text-white block py-6">AdelineAfigar</a>
+                    <a href="#home" class="font-bold text-lg text-white block py-6">
+                        <span class="font-extrabold">Adeline</span>
+                        <span class="font-extralight">Afigar</span>
+                    </a>
                 </div>
                 <div class="flex items-center px-4">
                     <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
@@ -23,33 +25,33 @@
                         <span class="hamburger-line transition duration-300 ease-in-out"></span>
                         <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
                     </button>
-
                     <nav id="nav-menu"
-                        class="hidden absolute py-5 bg-indigo shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        class="hidden absolute py-5 bg-indigo shadow-lg rounded-lg max-w-[125px] w-full right-2 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
                         <ul class="block lg:flex">
                             <li class="group">
-                                <a href="#home"
-                                    class="text text-base text-white py-2 mx-8 flex group-hover:text-pink">Home</a>
+                                <a href="#about"
+                                    class="text text-base text-white py-2 mx-4 flex group-hover:text-gray">About</a>
                             </li>
                             <li class="group">
                                 <a href="#experience"
-                                    class="text text-base text-white py-2 mx-8 flex group-hover:text-pink">Experience</a>
+                                    class="text text-base text-white py-2 mx-4 flex group-hover:text-gray">Experience</a>
                             </li>
                             <li class="group">
                                 <a href="#education"
-                                    class="text text-base text-white py-2 mx-8 flex group-hover:text-pink">Education</a>
-                            </li>
-                            <li class="group">
-                                <a href="#skill"
-                                    class="text text-base text-white py-2 mx-8 flex group-hover:text-pink">Skill</a>
+                                    class="text text-base text-white py-2 mx-4 flex group-hover:text-gray">Education</a>
                             </li>
                             <li class="group">
                                 <a href="#portfolio"
-                                    class="text text-base text-white py-2 mx-8 flex group-hover:text-pink">Portfolio</a>
+                                    class="text text-base text-white py-2 mx-4 flex group-hover:text-gray">Portfolio</a>
                             </li>
                             <li class="group">
                                 <a href="#contact"
-                                    class="text text-base text-white py-2 mx-8 flex group-hover:text-pink">Contact</a>
+                                    class="text text-base text-white py-2 mx-4 flex group-hover:text-gray">Contact</a>
+                            </li>
+                            <li class="group pt-2">
+                                <a href="./src/img/Adeline Afigar CV SOFTWARE ENGINEERING.pdf" target="_blank"
+                                    class="text text-base text-white bg-pink py-2 px-6 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">
+                                    Download CV</a>
                             </li>
                         </ul>
                     </nav>
@@ -58,23 +60,20 @@
         </div>
     </header>
     <!-- HEADER SECTION END -->
+
     <!-- HERO SECTION START -->
     <section id="home" class="pt-36">
         <div class="container">
             <div class="flex flex-wrap">
                 <div class="w-full self-center px-4 lg:w-1/2">
-                    <h1 class="text-base font-semibold text-white md:text-xl lg:text-2xl">Hello World 👋,
-                        I'm <span class="block font-bold text-4xl text-pink mt-1">Adeline Afigar</span></h1>
+                    <h1 class="text-base font-extralight text-white md:text-md lg:text-l">— Hello World 👋 I am
+                        <span class="block font-bold text-4xl text-pink mt-1">Adeline Afigar</span>
+                    </h1>
                     <h2 class="font-medium text-white text-lg mb-5 font-semibold">Educator & Web Developer</h2>
-                    <p class="font-medium text-gray-300 mb-10 leading-relaxed md:text-lg">With a solid foundation as an
-                        IT
-                        educator, I
-                        bring a wealth of experience in instructional
-                        design, curriculum development, and student engagement. My proficiency in various programming
-                        languages, coupled with my ability to adapt quickly to new environments. My commitment to
-                        continuous learning and my drive to innovate make me well-equipp ed to tackle new challenges and
-                        contribute effectively to any programming team</p>
-                    <a href="#"
+                    <p class="font-medium text-gray mb-10 leading-relaxed md:text-lg">A passionate coding educator
+                        with a programming skillset seeks to transition from the classroom to contribute directly as a
+                        developer.</p>
+                    <a href="#about"
                         class="text-base font-semibold text-white bg-pink py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">
                         Hire me</a>
                 </div>
@@ -82,9 +81,9 @@
                     <div class="relative mt-10 lg:mt-0 lg:right-0">
                         <img src="/src/img/adel.png" alt="Adeline Afigar" class="max-w-full mx-auto">
                         <span class="absolute -bottom-20 -z-10 left-1/2 -translate-x-1/2 md:scale-125">
-                            <svg width="400" height="700" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                                <path fill="#FF0066"
-                                    d="M42.7,-43.3C52.7,-32.7,56.4,-16.4,58.8,2.4C61.2,21.2,62.4,42.4,52.4,55.9C42.4,69.4,21.2,75.1,6.1,69C-9,62.9,-18,44.9,-28.5,31.5C-39.1,18,-51.2,9,-56.9,-5.7C-62.6,-20.4,-61.9,-40.8,-51.3,-51.3C-40.8,-61.9,-20.4,-62.6,-2,-60.6C16.4,-58.6,32.7,-53.8,42.7,-43.3Z"
+                            <svg width="350" height="550" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="#A21CAF"
+                                    d="M62.9,-54.7C74.4,-35.6,71.9,-9.9,65.1,12.8C58.3,35.5,47.2,55.2,31.1,62C15,68.8,-6.1,62.7,-23.3,52.7C-40.5,42.8,-53.8,29.1,-55.8,14.4C-57.8,-0.2,-48.5,-15.8,-37.3,-34.8C-26.2,-53.8,-13.1,-76.3,6.3,-81.3C25.7,-86.3,51.3,-73.8,62.9,-54.7Z"
                                     transform="translate(100 100) scale(1.2)" />
                             </svg>
                         </span>
@@ -94,261 +93,369 @@
         </div>
     </section>
     <!-- HERO SECTIO END -->
-
-    <!-- EDUCATION SECTION START -->
-    <section id="about" class="pt-36 pb-32">
+    <!-- ABOUT SECTION START -->
+    <section id="about" class="pt-24 pb-8 bg-pink">
         <div class="container">
-            <div class="flex flex-wrap">
-                <div class="w-full px-4 mb-10 lg:w-1/2">
-                    <div class="mb-10">
-                        <h2 class="font-bold text-pink text-3xl mb-5 max-w-xl lg:text-4xl">EDUCATION</h2>
-                        <h4 class="font-bold text-white text-lg mb-3 max-w-md lg:text-lg">Electronics Engineering
-                        </h4>
-                        <p class="font-medium text-base text-gray-400 max-w-xl md:text-lg">Lorem ipsum dolor sit amet,
-                            consectetur
-                            adipisicing elit.
-                            Asperiores, assumenda,
-                            eaque maxime aliquid quia vitae eius aut deserunt omnis fugit soluta esse non molestiae
-                            excepturi?
-                            Iste numquam officia fugit sunt.</p>
+            <div class="w-full px-4 lg:mx-auto">
+                <div class="max-w-xl mx-auto text-center mb-8">
+                    <h4 class="font-semibold text-indigo text-xl mb-3 max-w-xl">ABOUT ME</h4>
+                </div>
+                <h2 class="font-bold text-3xl lg:text-5xl sm:text-4xl text-center text-white mt-5 mb-3">From
+                    Inspiring Minds to Building
+                    Solutions</h2>
+                <p class="font-medium text-base text-gray text-center justify-center">With a solid foundation as an
+                    IT educator for three years, I bring a wealth of experience in instructional design, curriculum
+                    development, and
+                    student engagement. My Education Background in Electronics Engineering and my proficiency in various
+                    programming languages, coupled with my ability to
+                    adapt quickly to new environments. My commitment to continuous learning and my drive to innovate
+                    make me well-equipped to tackle new challenges and contribute effectively to any programming team
+                </p>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- ABOUT SECTION END -->
+
+    <!-- EXPERIENCE SECTION START -->
+    <section id="experience" class="pt-24 pb-8 px-24">
+        <div class="max-w-xl mx-auto text-center mb-8">
+            <h4 class="font-semibold text-pink text-xl mb-3 max-w-xl">EXPERIENCE</h4>
+            <p class="font-medium text-base text-gray text-center justify-center">My diverse professional experience has
+                provided me with valuable opportunities to learn and develop my skills.</p>
+        </div>
+        <div
+            class="space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 before:to-transparent">
+
+            <!-- Experience #1 -->
+            <div
+                class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+                <!-- Icon -->
+                <div
+                    class="flex items-center justify-center w-10 h-10 rounded-full border border-white group-[.is-active]:bg-pink group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+                </div>
+                <!-- Card -->
+                <div
+                    class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-slate-200 shadow">
+                    <div class="flex items-center justify-between space-x-2 mb-1">
+                        <div class="font-bold text-slate-900 font-medium">Head of Department</div>
+                        <time class="font-caveat font-medium text-indigo-500">Jan 2021 - Present</time>
+                    </div>
+                    <div>
+                        <p class="pt-4 text-sm text-slate-700">Head of Software Engineering Department at SMK Prestasi
+                            Prima</p>
+                        <ul class="list-disc font-extralight text-slate-500 ml-6 text-justify text-sm">
+                            <li>Designing and implementing a curriculum that meets industry standards and prepares
+                                students for career in software development involve maintain communication with school
+                                administration, parents, and stakeholders to align departmental goals</li>
+                            <li>Managed recruitment for 6 software engineer teachers and 8 homeroom teachers within the
+                                Software
+                                Engineering Department. Conducted teacher evaluations to optimize teaching skills,
+                                aligning with student requirements.</li>
+                            <li>Collaborate with 40 industry partners to provide 200 students with practical experiences
+                                such
+                                as internships, industry project, and job fair</li>
+                            <li>Managing department's budget and resources. Ensure the availability of necessary tools
+                                and infrastructure at every period</li>
+                            <li>Design and create learning plans, practical modules and comprehensive
+                                educational
+                                materials </li>
+                            <div class="text-xs text-white flex flex-wrap lg:w-full md:w-1/2">
+                                <a href=""
+                                    class="py-1 px-2 rounded-full shadow-lg bg-slate-300 hover:text-slate-400 mr-1 ml-1 mt-1">HTML</a>
+                                <a href=""
+                                    class="py-1 px-2 rounded-full shadow-lg bg-slate-300 hover:text-slate-400 mr-1 ml-1 mt-1">CSS</a>
+                                <a href=""
+                                    class="py-1 px-2 rounded-full shadow-lg bg-slate-300 hover:text-slate-400 mr-1 ml-1 mt-1">JAVASCRIPT</a>
+                                <a href=""
+                                    class="py-1 px-2 rounded-full shadow-lg bg-slate-300 hover:text-slate-400 mr-1 ml-1 mt-1">PHP</a>
+                                <a href=""
+                                    class="py-1 px-2 rounded-full shadow-lg bg-slate-300 hover:text-slate-400 mr-1 ml-1 mt-1">JAVA</a>
+                                <a href=""
+                                    class="py-1 px-2 rounded-full shadow-lg bg-slate-300 hover:text-slate-400 mr-1 ml-1 mt-1">PYTHON</a>
+                                <a href=""
+                                    class="py-1 px-2 rounded-full shadow-lg bg-slate-300 hover:text-slate-400 mr-1 ml-1 mt-1">FLUTTER</a>
+                                <a href=""
+                                    class="py-1 px-2 rounded-full shadow-lg bg-slate-300 hover:text-slate-400 mr-1 ml-1 mt-1">C++</a>
+                                <a href=""
+                                    class="py-1 px-2 rounded-full shadow-lg bg-slate-300 hover:text-slate-400 mr-1 ml-1 mt-1">C#</a>
+                                <a href=""
+                                    class="py-1 px-2 rounded-full shadow-lg bg-slate-300 hover:text-slate-400 mr-1 ml-1 mt-1">WORDPRESS</a>
+                                <a href=""
+                                    class="py-1 px-2 rounded-full shadow-lg bg-slate-300 hover:text-slate-400 mr-1 ml-1 mt-1">FIGMA</a>
+                                <a href=""
+                                    class="py-1 px-2 rounded-full shadow-lg bg-slate-300 hover:text-slate-400 mr-1 ml-1 mt-1">CODEIGNITER</a>
+                                <a href=""
+                                    class="py-1 px-2 rounded-full shadow-lg bg-slate-300 hover:text-slate-400 mr-1 ml-1 mt-1">LARAVEL</a>
+                            </div>
+                        </ul>
                     </div>
                 </div>
-                <div class="w-full px-4 lg:w-1/2">
-                    <h4 class="font-bold text-white text-lg mb-3 lg:text-lg lg:pt-10">Software Engineering</h4>
-                    <p class="font-medium text-base text-gray-400 max-w-xl mb-6">Best Student of Software Engineering in
-                        SMKN 1 Cilegon Lorem ipsum dolor sit amet, consecetur
-                    </p>
-                    <div class="w-full px-4 flex items-center">
-                        <!-- LinkedIn -->
-                        <a href="https://www.linkedin.com/in/adelineafigar/" target="_blank"
-                            class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border-gray-400 hover: border-white hover:bg-pink hover:text-white">
-                            <svg role="img" width="20" class="fill-current" xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                                <path
-                                    d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" />
-                            </svg>
-                        </a>
-                        <!-- Github -->
-                        <a href="https://github.com/adelineafgr" target="_blank"
-                            class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border-gray-400 hover: border-white hover:bg-pink hover:text-white">
-                            <svg role="img" width="20" class="fill-current" xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 480 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                                <path
-                                    d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z" />
-                            </svg>
-                        </a>
+            </div>
+
+            <!-- Experience #2 -->
+            <div
+                class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+                <!-- Icon -->
+                <div
+                    class="flex items-center justify-center w-10 h-10 rounded-full border border-white group-[.is-active]:bg-pink group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+                </div>
+                <!-- Card -->
+                <div
+                    class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-slate-200 shadow">
+                    <div class="flex items-center justify-between space-x-2 mb-1">
+                        <div class="font-bold text-slate-900 font-medium">Coding Tutor</div>
+                        <time class="font-caveat font-medium text-indigo-500">December 2021 - May 2022</time>
+                    </div>
+                    <div>
+                        <p class="pt-4 text-sm text-slate-700">Part Time Coding Tutor at BrightChamps</p>
+                        <ul class="list-disc font-extralight text-slate-500 ml-6 text-justify text-sm">
+                            <li>Delivering well-structured online lessons theoretically and practically programming and
+                                computer basics for kindergarten students until high school students, such as designing
+                                objects at tinkercad, developing games and applications at scratch, thunkable,
+                                studio.code.org. Also, introduce students to using python programming language</li>
+                            <li>Meeting regularly with parents to get to know student development and make sure parents
+                                got all the services that they have to get</li>
+                            <li>Getting 2-3 new students per month and had 160 hours of teaching per month with 14 total
+                                students.</li>
+                            <div class="text-xs text-white flex flex-wrap lg:w-full md:w-1/2">
+                                <a href=""
+                                    class="py-1 px-2 rounded-full shadow-lg bg-slate-300 hover:text-slate-400 mr-1 ml-1 mt-1">HTML</a>
+                                <a href=""
+                                    class="py-1 px-2 rounded-full shadow-lg bg-slate-300 hover:text-slate-400 mr-1 ml-1 mt-1">CSS</a>
+                                <a href=""
+                                    class="py-1 px-2 rounded-full shadow-lg bg-slate-300 hover:text-slate-400 mr-1 ml-1 mt-1">JAVASCRIPT</a>
+                                <a href=""
+                                    class="py-1 px-2 rounded-full shadow-lg bg-slate-300 hover:text-slate-400 mr-1 ml-1 mt-1">PHP</a>
+                                <a href=""
+                                    class="py-1 px-2 rounded-full shadow-lg bg-slate-300 hover:text-slate-400 mr-1 ml-1 mt-1">PYTHON</a>
+                                <a href=""
+                                    class="py-1 px-2 rounded-full shadow-lg bg-slate-300 hover:text-slate-400 mr-1 ml-1 mt-1">THUNKABLE</a>
+                                <a href=""
+                                    class="py-1 px-2 rounded-full shadow-lg bg-slate-300 hover:text-slate-400 mr-1 ml-1 mt-1">SCRATCH</a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Experience #2 -->
+            <div
+                class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+                <!-- Icon -->
+                <div
+                    class="flex items-center justify-center w-10 h-10 rounded-full border border-white group-[.is-active]:bg-pink group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+                </div>
+                <!-- Card -->
+                <div
+                    class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-slate-200 shadow">
+                    <div class="flex items-center justify-between space-x-2 mb-1">
+                        <div class="font-bold text-slate-900 font-medium">Software Engineer</div>
+                        <time class="font-caveat font-medium text-indigo-500">October 2020 - December 2020</time>
+                    </div>
+                    <div>
+                        <p class="pt-4 text-sm text-slate-700">Software Engineer at PT Mekanika Digital Pratama</p>
+                        <ul class="list-disc font-extralight text-slate-500 ml-6 text-justify text-sm">
+                            <li>Provide goods or services to PT Astra Honda Motor on a contractual basis</li>
+                            <li>Designing and develop software for robot control and automation: automated guided
+                                vehicle</li>
+                            <div class="text-xs text-white flex flex-wrap lg:w-full md:w-1/2">
+                                <a href=""
+                                    class="py-1 px-2 rounded-full shadow-lg bg-slate-300 hover:text-slate-400 mr-1 ml-1 mt-1">HTML</a>
+                                <a href=""
+                                    class="py-1 px-2 rounded-full shadow-lg bg-slate-300 hover:text-slate-400 mr-1 ml-1 mt-1">CSS</a>
+                                <a href=""
+                                    class="py-1 px-2 rounded-full shadow-lg bg-slate-300 hover:text-slate-400 mr-1 ml-1 mt-1">JAVASCRIPT</a>
+                                <a href=""
+                                    class="py-1 px-2 rounded-full shadow-lg bg-slate-300 hover:text-slate-400 mr-1 ml-1 mt-1">ARDUINO</a>
+                                <a href=""
+                                    class="py-1 px-2 rounded-full shadow-lg bg-slate-300 hover:text-slate-400 mr-1 ml-1 mt-1">C++</a>
+                                <a href=""
+                                    class="py-1 px-2 rounded-full shadow-lg bg-slate-300 hover:text-slate-400 mr-1 ml-1 mt-1">C#</a>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!-- EXPERIENCE SECTION END -->
+
+    <!-- EDUCATION SECTION START -->
+    <section id="education" class="pt-36 pb-32 bg-pink">
+        <div class="max-w-4xl lg:mx-auto text-center mb-8">
+            <h4 class="font-semibold text-indigo text-xl mb-3 max-w-4xl text-center">EDUCATION</h4>
+            <p class="font-medium text-base text-gray text-center justify-center w-full">Driven by a passion for
+                coding
+                ignited
+                in vocational high school, I've honed my web development skills
+                and expanded
+                my knowledge into the exciting fields of electronics engineering during my university studies</p>
+        </div>
+        <div class="container">
+            <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+                <div class="flex items-center justify-between space-x-2 mb-1">
+                    <div class="mb-8 p-4 md:w-1/2 bg-white p-4 m-8 rounded border border-slate-200 shadow">
+                        <div class="flex items-center justify-between space-x-2 mb-1">
+                            <div class="font-bold text-slate-900 font-medium">D3 Electronics Engineering
+                            </div>
+                            <time class="font-caveat text-slate-900 font-medium">July 2017 - September 2020</time>
+                        </div>
+                        <div class="text-sm text-slate-500 max-w-xl justify-center pt-2 pb-8">
+                            <p>Grade (IPK): 3.39 <br>Activities and societies:
+                            <ol class="list-decimal font-extralight text-slate-500 ml-6 text-justify text-sm">
+                                <li>Biro Badan Eksekutif Mahasiswa Fakultas Tenik Departemen Komunikasi dan Informasi
+                                    2018-2019</li>
+                                <li>Himpunan Mahasiswa Jurusan Teknik Elektronika Departemen PPAO 2018-2019</li>
+                                <li>Badan Eksekutif Mahasiswa Staff Bidang Personalia Departemen Pengembangan Sumber
+                                    Daya
+                                    2019 - 2020</li>
+                            </ol><br>
+                            Final Project "Planning and Making a Prototype of Traffic Sign Program for Sharp Turns based
+                            on
+                            Arduino Mega 2560"</p>
+                        </div>
+                    </div>
+                    <div class="mb-8 p-4 md:w-1/2 bg-white p-4 m-8 rounded border border-slate-200 shadow">
+                        <div class="flex items-center justify-between space-x-2 mb-1">
+                            <div class="font-bold text-slate-900 font-medium">Software Engineering</div>
+                            <time class="font-caveat text-slate-900 font-medium">July 2014 - May 2017</time>
+                        </div>
+                        <div class="text-sm text-slate-500 max-w-xl justify-center pt-2 pb-6">
+                            <p>Activities and societies:
+                            <ol class="list-decimal font-extralight text-slate-500 ml-6 text-justify text-sm">
+                                <li>Member of English Club in 2015 - 2016</li>
+                                <li>Secretary of Student Council in 2015 - 2016</li>
+                                <li>English Speech Contestant at Universitas Agung Tirtayasa in 2015</li>
+                                <li>English Debate as Third Speaker at LKS SMK Cilegon in 2015</li>
+                                <li>Indonesia Cinta Tanah Air Debate in 2015</li>
+                                <li>Indonesia Diplomacy in ASEAN Model</li>
+                            </ol>
+                            Achievement:
+                            <ol class="list-decimal font-extralight text-slate-500 ml-6 text-justify text-sm mt-2">
+                                <li>Kaizen Convention SMK 2016 in Politeknik Manufaktur Astra (Developing E-Perpus)</li>
+                                <li>Best Student of The Year Software Engineering in 2017</li>
+                            </ol>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
     <!-- EDUCATION SECTION END -->
+
     <!-- PORTFOLIO SECTION START -->
-    <section id="portfolio" class="pt-36 pb-16 bg-slate-100">
+    <section id="portfolio" class="pt-36 pb-16 bg-indigo">
         <div class="container">
             <div class="w-full px-4">
                 <div class="max-w-xl mx-auto text-center mb-16">
-                    <h2 class="font-bold text-pink text-3xl mb-5 max-w-xl lg:text-4xl">PORTFOLIO</h2>
+                    <h4 class="font-semibold text-pink text-xl mb-3 max-w-4xl text-center">PORTFOLIO</h4>
                 </div>
             </div>
             <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
                 <div class="mb-12 p-4 md:w-1/2">
-                    <h3 class="font-semibold text-xl text-center text-indigo mt-5 mb-3">Project 1</h3>
+                    <h3 class="font-semibold text-xl text-center text-pink mt-5 mb-3">Web School Profile</h3>
                     <div class="rounded-mb shadow-md overflow-hidden">
-                        <img src="./src/img/projects/project1.png" alt="Project 1" width="w-full">
+                        <a href="http://prestasiprima.sch.id" target="_blank"><img src="./src/img/projects/project1.png"
+                                alt="Project 1" width="w-full"></a>
                     </div>
-                    <p class="font-medium text-base text-gray-400 max-w-xl text-center justify-center md:text-lg">Lorem
-                        ipsum dolor
-                        sit amet consectetur
-                        adipisicing elit. Sequi distinctio repudiandae corrupti
-                        enim laudantium commodi, id incidunt tenetur. Voluptatem optio!</p>
+                    <p class="font-medium text-base  text-gray max-w-xl text-center justify-center md:text-lg">
+                        Created a web school profile using WordPress for Sekolah Prestasi Prima, showcasing their
+                        offerings and
+                        attracting potential students. Utilized content management best practices and responsive design
+                        for a user-friendly experience</p>
                 </div>
                 <div class="mb-12 p-4 md:w-1/2">
-                    <h3 class="font-semibold text-xl text-center text-indigo mt-5 mb-3">Project 2</h3>
+                    <h3 class="font-semibold text-xl text-center text-pink mt-5 mb-3">Job Fair</h3>
                     <div class="rounded-mb shadow-md overflow-hidden">
-                        <img src="./src/img/projects/project2.png" alt="Project 2" width="w-full">
+                        <a href="carrerexpo.prestasiprima.sch.id"><img src="./src/img/projects/project2.png"
+                                alt="Project 2" width="w-full"></a>
                     </div>
-                    <p class="font-medium text-base text-gray-400 max-w-xl text-center justify-center md:text-lg">Lorem
-                        ipsum dolor
-                        sit amet consectetur
-                        adipisicing elit. Sequi distinctio repudiandae corrupti
-                        enim laudantium commodi, id incidunt tenetur. Voluptatem optio!</p>
+                    <p class="font-medium text-base text-gray max-w-xl text-center justify-center md:text-lg">
+                        Built an interactive job fair website with HTML, CSS, and Google Forms for registration.
+                        Integrated Google Sheets for data collection, creating an efficient job seeker-employer
+                        connection platform. </p>
                 </div>
                 <div class="mb-12 p-4 md:w-1/2">
-                    <h3 class="font-semibold text-xl text-center text-indigo mt-5 mb-3">Project 3</h3>
+                    <h3 class="font-semibold text-xl text-center text-pink mt-5 mb-3">Student Course Registration</h3>
                     <div class="rounded-mb shadow-md overflow-hidden">
-                        <img src="./src/img/projects/project3.png" alt="Project 3" width="w-full">
+                        <a href="studyexpo.prestasiprima.sch.id"><img src="./src/img/projects/project3.png"
+                                alt="Project 3" width="w-full"></a>
                     </div>
-                    <p class="font-medium text-base text-gray-400 max-w-xl text-center justify-center md:text-lg">Lorem
-                        ipsum dolor
-                        sit amet consectetur
-                        adipisicing elit. Sequi distinctio repudiandae corrupti
-                        enim laudantium commodi, id incidunt tenetur. Voluptatem optio!</p>
+                    <p class="font-medium text-base  text-gray max-w-xl text-center justify-center md:text-lg">
+                        Developed a student course registration platform in Laravel. Students choose classes based on
+                        their departmental interests, ensuring efficient course allocation and a personalized learning
+                        experience.</p>
                 </div>
                 <div class="mb-12 p-4 md:w-1/2">
-                    <h3 class="font-semibold text-xl text-center text-indigo mt-5 mb-3">Project 4</h3>
+                    <h3 class="font-semibold text-xl text-center text-pink mt-5 mb-3">Student Attendance</h3>
                     <div class="rounded-mb shadow-md overflow-hidden">
-                        <img src="./src/img/projects/project4.png" alt="Project 4" width="w-full">
+                        <a href="absensmk.prestasiprima.sch.id"><img src="./src/img/projects/project4.png"
+                                alt="Project 4" width="w-full"></a>
                     </div>
-                    <p class="font-medium text-base text-gray-400 max-w-xl text-center justify-center md:text-lg">Lorem
-                        ipsum dolor
-                        sit amet consectetur
-                        adipisicing elit. Sequi distinctio repudiandae corrupti
-                        enim laudantium commodi, id incidunt tenetur. Voluptatem optio!</p>
+                    <p class="font-medium text-base  text-gray max-w-xl text-center justify-center md:text-lg">
+                        Built a comprehensive student attendance system with Laravel. Features include student
+                        self-reporting, automated reports for teachers and administrators, streamlining attendance
+                        tracking and improving school efficiency. </p>
                 </div>
             </div>
         </div>
     </section>
     <!-- PORTFOLIO SECTION END -->
-    <!-- SKILLS SECTION START -->
-    <section id="skills" class="pt-36 pb-32 ">
-        <div class="container">
-            <div class="w-full px-4 lg:mx-auto">
-                <div class="max-w-xl mx-auto text-center mb-16">
-                    <h2 class="font-bold text-pink text-3xl mb-5 max-w-xl lg:text-5xl sm:text-4xl">SKILLS</h2>
-                </div>
-                <h3 class="font-semibold text-xl text-center text-white mt-5 mb-3">Programming Skills</h3>
-                <p class="font-medium text-base text-gray-400 text-center justify-center">Lorem
-                    ipsum dolor
-                    sit amet consectetur
-                    adipisicing elit Sequi distinctio repudiandae corrupti
-                    enim laudantium commodi, id incidunt tenetur. Voluptatem optio!</p>
-                <div class="w-full px-4">
-                    <div class="flex flex-wrap items-center justify-center">
-                        <a href="#"
-                            class="max-w-[80px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-2 xl:mx-4">
-                            <img src="./src/img/skills/html.png" alt="HTML">
-                        </a>
-                        <a href="#"
-                            class="max-w-[58px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-2 xl:mx-4">
-                            <img src="./src/img/skills/css.png" alt="CSS">
-                        </a>
-                        <a href="#"
-                            class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-2 xl:mx-4">
-                            <img src="./src/img/skills/javascript.png" alt="javascript">
-                        </a>
-                        <a href="#"
-                            class="max-w-[80px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-2 xl:mx-4">
-                            <img src="./src/img/skills/php.png" alt="PHP">
-                        </a>
-                        <a href="#"
-                            class="max-w-[60px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-2 xl:mx-4">
-                            <img src="./src/img/skills/java.png" alt="java">
-                        </a>
-                        <a href="#"
-                            class="max-w-[60px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-2 xl:mx-4">
-                            <img src="./src/img/skills/csharp.png" alt="c#">
-                        </a>
-                        <a href="#"
-                            class="max-w-[55px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-2 xl:mx-4">
-                            <img src="./src/img/skills/cplus.png" alt="c++">
-                        </a>
-                        <a href="#"
-                            class="max-w-[80px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-2 xl:mx-4">
-                            <img src="./src/img/skills/python.png" alt="python">
-                        </a>
-                        <a href="#"
-                            class="max-w-[70px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-2 xl:mx-4">
-                            <img src="./src/img/skills/ci.png" alt="ci">
-                        </a>
-                        <a href="#"
-                            class="max-w-[80px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-2 xl:mx-4">
-                            <img src="./src/img/skills/laravel.png" alt="laravel">
-                        </a>
-                        <a href="#"
-                            class="max-w-[80px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-2 xl:mx-4">
-                            <img src="./src/img/skills/unity.png" alt="unity">
-                        </a>
-                    </div>
-                </div>
-
-                <h3 class="font-semibold text-xl text-center text-white mt-5 mb-3">Soft Skills</h3>
-                <p class="font-medium text-base text-gray-400 text-center justify-center">Lorem
-                    ipsum dolor
-                    sit amet consectetur
-                    adipisicing elit. Sequi distinctio repudiandae corrupti
-                    enim laudantium commodi, id incidunt tenetur. Voluptatem optio!</p>
+    <!-- LETS TALK SECTION START -->
+    <div id="contact" class="w-full pt-10 pb-4 bg-pink">
+        <h3 class="font-bold text-4xl text-indigo pb-4 ml-4">Let's Talk!</h3>
+        <div class="flex flex-wrap items-center justify-center lg:mx-auto">
+            <div class="w-full px-2 flex items-center md:w1/3">
+                <!-- Gmail -->
+                <a href="https://mail.google.com/mail/u/0/?fs=1&to=adelineafigar@gmail.com&tf=cm" target="_blank"
+                    class="w-7 h-7 mr-1 rounded-full flex justify-center items-center border-gray-400 hover: border-white hover:bg-pink hover:text-white">
+                    <svg role="img" width="20" class="fill-current" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                        <path
+                            d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" />
+                    </svg>
+                </a>
+                <p class="font-medium text-sm text-center text-xs">adelineafigar@gmail.com</p>
             </div>
         </div>
-    </section>
-    <!-- SKILLS SECTION END -->
-    <!-- CONTACT SECTION START -->
-    <section id="contact" class="pt-36 pb-32">
-        <div class="container">
-            <form action="">
-                <div class="w-full lg:w-2/3 lg:mx-auto">
-                    <div class="w-full px-4">
-                        <div class="max-w-xl mx-auto text-center mb-16">
-                            <h4 class="font-bold text-pink text-3xl mb-5 max-w-xl lg:text-5xl sm:text-4xl">CONTACT</h4>
-                            <p class="font-medium text-base text-gray-400 text-center justify-center">Lorem
-                                ipsum dolor
-                                sit amet consectetur
-                                adipisicing elit Sequi distinctio repudiandae corrupti
-                                enim laudantium commodi, id incidunt tenetur. Voluptatem optio!</p>
-                        </div>
-                    </div>
-                    <div class="w-full px-4 mb-8">
-                        <label for="name" class="text-base text-gray-400 uppercase">Name</label>
-                        <input type="text" id="name"
-                            class="w-full bg-slate-200 text-black p-3 rounded-md focus:outline-none focus:ring-black focus:ring-1 focus:ring-indigo" />
-                        <label for="email" class="text-base text-gray-400 uppercase">Email</label>
-                        <input type="email" id="email"
-                            class="w-full bg-slate-200 text-black p-3 rounded-md focus:outline-none focus:ring-black focus:ring-1 focus:ring-indigo" />
-                        <label for="phone" class="text-base text-gray-400 uppercase">Phone</label>
-                        <input type="number" id="phone"
-                            class="w-full bg-slate-200 text-black p-3 rounded-md focus:outline-none focus:ring-black focus:ring-1 focus:ring-indigo" />
-                        <label for="message" class="text-base text-gray-400 uppercase">Message</label>
-                        <textarea type="text" id="message"
-                            class="w-full bg-slate-200 text-black p-3 rounded-md focus:outline-none focus:ring-black focus:ring-1 focus:ring-indigo h-32"></textarea>
-                    </div>
-                    <div class="w-full">
-                        <button
-                            class="text-base font-semibold text-white bg-pink py-3 px-8 rounded-full w-full hover:opacity-80 hover:shadow-lg transition duration-500">Send!</button>
-                    </div>
-                </div>
-            </form>
+        <div class="flex flex-wrap items-center justify-center lg:mx-auto">
+            <div class="w-full px-2 flex items-center md:w1/3">
+                <!-- WhatsApp -->
+                <a href="https://wa.me/6281287327875" target="_blank"
+                    class="w-7 h-7 mr-1 rounded-full flex justify-center items-center border-gray-400 hover: border-white hover:bg-pink hover:text-white">
+                    <svg role="img" width="20" class="fill-current" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                        <path
+                            d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z" />
+                    </svg>
+                </a>
+                <p class="font-medium text-smtext-center text-xs">+62 81287327875</p>
+            </div>
         </div>
-    </section>
-    <!-- CONTACT SECTION END -->
+        <div class="flex flex-wrap items-center justify-center lg:mx-auto">
+            <div class="w-full px-2 flex items-center md:w1/3">
+                <!-- LinkedIn -->
+                <a href="https://wa.me/6281287327875" target="_blank"
+                    class="w-7 h-7 mr-1 rounded-full flex justify-center items-center border-gray-400 hover: border-white hover:bg-pink hover:text-white">
+                    <svg role="img" width="20" class="fill-current" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                        <path
+                            d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" />
+                    </svg>
+                </a>
+                <p class="font-medium text-smtext-center text-xs">+62 81287327875</p>
+            </div>
+        </div>
+    </div>
+    <!-- LETS TALK SECTION END -->
     <!-- FOOTER SECTION START -->
-    <footer class="bg-gray-700 pt-6 pb-3">
-        <div class="container">
-            <div class="flex flex-wrap">
-                <div class="w-full px-4 mb-4 font-medium md:w-1/3">
-                    <h3 class="font-bold text-4xl text-white mb-5">Contact Us</h3>
-                    <p>adelineafigar@gmail.com</p>
-                    <p>+6281287327875</p>
-                    <p>Jakarta</p>
-                </div>
-            </div>
-            <div class="w-full pt-10 border-t border-slate-600">
-                <div class="flex items-center justify-center mb-5 lg:mx-auto">
-                    <div class="w-full px-4 flex items-center justify-center">
-                        <!-- LinkedIn -->
-                        <a href="https://www.linkedin.com/in/adelineafigar/" target="_blank"
-                            class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border-gray-400 hover: border-white hover:bg-pink hover:text-white">
-                            <svg role="img" width="20" class="fill-current" xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                                <path
-                                    d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" />
-                            </svg>
-                        </a>
-                        <!-- Github -->
-                        <a href="https://github.com/adelineafgr" target="_blank"
-                            class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border-gray-400 hover: border-white hover:bg-pink hover:text-white">
-                            <svg role="img" width="20" class="fill-current" xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 480 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                                <path
-                                    d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z" />
-                            </svg>
-                        </a>
-                        <p class="font-medium text-sm text-gray-600 text-center text-xs">Made with 🫶 <a
-                                href="https://www.linkedin.com/in/adelineafigar/" target="_blank"
-                                class="font-bold text-pink">Adeline Afigar</a></p>
-                    </div>
-                </div>
+    <div class="w-full pt-10 border-t border-slate-600">
+        <div class="flex items-center justify-center mb-5 lg:mx-auto">
+            <div class="w-full px-4 flex items-center justify-center">
+                <p class="font-medium text-sm text-gray text-center text-xs">All right reserved © by Adeline Afigar</p>
             </div>
         </div>
+    </div>
+    </div>
     </footer>
     <!-- FOOTER SECTION END -->
     <script src="./src/js/script.js"></script>
